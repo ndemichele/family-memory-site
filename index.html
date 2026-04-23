@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Family Memory: Bourbon, Food & Kentucky Identity</title>
+  <style>
+    :root {
+      --bg: #f7f2ea;
+      --paper: #fffdf9;
+      --brown: #4b2e24;
+      --brown-light: #7a584c;
+      --gold: #b07a33;
+      --line: #dbcfc2;
+      --text: #2d241f;
+      --muted: #6d5b50;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    header {
+      background: linear-gradient(rgba(52,31,24,.82), rgba(52,31,24,.82)), linear-gradient(135deg, #604030, #2f1f17);
+      color: white;
+      padding: 96px 20px 88px;
+      text-align: center;
+    }
+    header h1 { font-size: 3rem; margin: 0 0 12px; }
+    header p { max-width: 900px; margin: 0 auto; font-size: 1.1rem; }
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--brown); padding: 14px 10px; text-align: center;
+      border-bottom: 1px solid rgba(255,255,255,0.12);
+    }
+    nav a {
+      color: white; text-decoration: none; margin: 0 12px; font-weight: bold; font-size: .95rem;
+    }
+    nav a:hover { color: #f4d6a5; }
+    main { max-width: 1120px; margin: auto; padding: 0 20px 60px; }
+    section {
+      background: var(--paper); margin-top: 28px; padding: 44px 32px;
+      border-radius: 16px; border: 1px solid var(--line);
+      box-shadow: 0 8px 22px rgba(60,39,28,.05);
+    }
+    h2 { font-size: 2rem; color: var(--brown); margin: 0 0 12px; }
+    h3 { color: var(--brown); margin-top: 0; margin-bottom: 10px; }
+    .lead { font-size: 1.08rem; color: var(--muted); max-width: 960px; }
+    .grid-2, .grid-3, .stakeholder-grid, .credits-grid, .media-grid {
+      display: grid; gap: 20px;
+    }
+    .grid-2, .media-grid, .credits-grid { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+    .grid-3 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+    .stakeholder-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+    .card {
+      background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 22px;
+    }
+    .tag {
+      display: inline-block; margin-bottom: 10px; padding: 4px 10px; border-radius: 999px;
+      background: #f2e2c7; color: var(--brown); font-size: .82rem; font-weight: bold;
+    }
+    .roadmap, .quote-box {
+      background: #f8f1e7; border-left: 5px solid var(--gold); padding: 18px 20px; border-radius: 10px; margin-top: 18px;
+    }
+    .roadmap ul, .mla-list, .checklist, .card ul { padding-left: 20px; }
+    .media-box img, .full-image img {
+      width: 100%; border-radius: 12px; border: 1px solid var(--line);
+    }
+    figure { margin: 0; }
+    figcaption { font-size: .95rem; color: var(--muted); margin-top: 10px; }
+    .section-note {
+      font-size: .95rem; color: var(--muted); margin-top: 10px;
+    }
+    .wc p, .wc li { font-size: .98rem; }
+    footer {
+      background: var(--brown); color: white; text-align: center; padding: 28px 20px; margin-top: 30px;
+    }
+    @media (max-width: 700px) {
+      header { padding: 72px 20px 60px; }
+      header h1 { font-size: 2.2rem; }
+      section { padding: 30px 20px; }
+      nav a { display: inline-block; margin: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <header id="home">
+    <h1>Family Memory: Bourbon, Food & Kentucky Identity</h1>
+    <p>
+      This website argues that Kentucky identity is shaped not only by bourbon and local food, but by the labor,
+      memory, storytelling, and commercialization behind them. By following four stakeholder perspectives—
+      distilleries, farmers, chefs, and families—this project shows how heritage is preserved, adapted, and marketed
+      at the same time.
+    </p>
+  </header>
+
+  <nav>
+    <a href="#issue">Central Issue</a>
+    <a href="#overview">Visual Overview</a>
+    <a href="#stakeholders">Stakeholders</a>
+    <a href="#questions">Research Questions</a>
+    <a href="#multimedia">Multimedia</a>
+    <a href="#works-cited">Works Cited</a>
+    <a href="#credits">Credits</a>
+  </nav>
+
+  <main>
+    <section id="issue">
+      <h2>Central Issue</h2>
+      <p class="lead">
+        Kentucky food and bourbon traditions are often celebrated as symbols of local pride, but they are also shaped by
+        tourism, branding, and economic pressure. The project’s central question asks how bourbon and local Kentucky foods
+        work together to shape regional identity, storytelling, and culinary tradition.
+      </p>
+      <p>
+        Our argument is that bourbon and food function as living records. They preserve family memory, labor history,
+        agricultural practice, and regional belonging. At the same time, those same traditions are packaged for visitors,
+        restaurants, and consumers who often encounter Kentucky culture through curated experiences instead of everyday life.
+        That tension between preservation and commercialization drives the entire site.
+      </p>
+      <div class="roadmap">
+        <strong>What readers will find on this site:</strong>
+        <ul>
+          <li>a central argument grounded in research rather than summary</li>
+          <li>four connected stakeholder perspectives</li>
+          <li>original multimedia that explains key ideas</li>
+          <li>a works cited section based on the group’s source base</li>
+          <li>clear contributor roles for the final project</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="overview">
+      <h2>How Kentucky Identity Is Built</h2>
+      <div class="full-image">
+        <figure>
+          <img src="a_multi_panel_infographic_photo_collage_layout_ov.png" alt="Infographic collage showing bourbon, farming, food, and Kentucky identity" />
+          <figcaption>
+            This visual introduces the project’s big-picture claim: Kentucky identity is created through overlapping systems of
+            bourbon production, agriculture, restaurants, and family memory rather than through one single tradition.
+          </figcaption>
+        </figure>
+      </div>
+      <p class="section-note">
+        Placing this graphic early helps the site act like a digital essay instead of a disconnected website. It gives readers a
+        visual map before they move into the written stakeholder analysis.
+      </p>
+    </section>
+
+    <section>
+      <h2>Why This Topic Matters</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Cultural Identity</h3>
+          <p>Bourbon and local foods carry stories of migration, labor, ritual, and place. They are not just products; they are symbols people use to define Kentucky itself.</p>
+        </div>
+        <div class="card">
+          <h3>Economic Stakes</h3>
+          <p>The bourbon industry is tied to jobs, tourism, agriculture, restaurants, and local branding, which means cultural heritage is also an economic engine.</p>
+        </div>
+        <div class="card">
+          <h3>Authenticity</h3>
+          <p>As heritage moves into tourism and marketing, the gap between lived culture and packaged experience becomes harder to ignore. The question becomes who controls the story.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="stakeholders">
+      <h2>Stakeholder Perspectives</h2>
+      <p class="lead">
+        The site follows the stakeholder framework from the group presentation so the final website feels intentionally organized.
+        Each stakeholder contributes a distinct voice while still supporting the same overall argument.
+      </p>
+      <div class="stakeholder-grid">
+        <div class="card">
+          <span class="tag">Nathanial Demichele</span>
+          <h3>Distilleries & Workers</h3>
+          <p>
+            Distillery workers reveal one of the project’s main contradictions: bourbon is marketed as local heritage, but it is
+            also a large-scale industry built on branding, tourism, and expansion. Frederick H. Smith explains that bourbon became a
+            global luxury product while still relying on stories of tradition and authenticity. Verhaal and Carroll go further by
+            showing that authenticity is something distilleries must actively signal through visible commitment to craft, not just
+            stories alone.
+          </p>
+          <p>
+            Industry sources reinforce how economically central bourbon has become. The Kentucky Distillers’ Association frames
+            bourbon as a statewide engine linked to jobs, tax revenue, construction, farming, and hospitality, while The Lane Report
+            shows how “bourbonism” turned tourism into a defining part of Kentucky’s identity. Together, these sources show that
+            distilleries are preserving heritage and selling it at the same time.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="tag">Sabrina Mendez</span>
+          <h3>Local Farmers & Producers</h3>
+          <p>
+            Farmers and ingredient producers ground Kentucky identity in land, labor, and continuity. Brown and Miller argue that
+            local markets strengthen both rural economies and community identity, while La Trobe shows that consumers often value
+            local food because it carries authenticity, transparency, and place-based meaning.
+          </p>
+          <p>
+            Sabrina’s source base also makes the argument more complicated by showing how commercialization can pressure farmers to
+            adopt uniform or highly efficient systems. Toler and his coauthors connect consumer support to fairness, while the
+            later agriculture and land-policy sources raise the question of what happens when modernization or economic pressure
+            weakens traditional knowledge. This perspective makes it clear that when local producers disappear, communities lose more
+            than ingredients. They lose memory tied to the land.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="tag">Sophia Surmay</span>
+          <h3>Chefs & Restaurant Owners</h3>
+          <p>
+            Chefs and restaurants translate Kentucky heritage into public experience. Steve Coomes argues that bourbon pairing turns
+            food into a deeper cultural experience, while John T. Edge shows how Southern chefs preserve tradition by adapting it
+            rather than freezing it in place. Fred Minnick and Clay Risen also show that bourbon is not just consumed in bars or
+            distilleries; it becomes part of menus, sauces, desserts, pairings, and restaurant storytelling.
+          </p>
+          <p>
+            Carson Smith’s article on culinary tourism pushes this even further by explaining that restaurants are part of the
+            Bourbon Trail experience itself. This means chefs do not simply serve food. They help shape what visitors understand as
+            authentic Kentucky culture.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="tag">Will Greiwe</span>
+          <h3>Families & Community</h3>
+          <p>
+            Families and community members preserve the emotional core of the project. Handwritten recipes, oral history, and food
+            rituals are often the forms through which people inherit Kentucky identity at home rather than through public branding.
+            This stakeholder reminds the project that culture starts in kitchens, tables, and repeated practices long before it is
+            turned into tourism.
+          </p>
+          <p>
+            This perspective also adds the site’s strongest emotional tension: once traditions move from homes and communities into
+            digital media or large public narratives, some of their context can be simplified. Families therefore serve as the
+            project’s reminder that heritage is lived before it is marketed.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="questions">
+      <h2>Research Questions</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Distilleries & Workers</h3>
+          <ul>
+            <li>How do distillery workers pass down production knowledge across generations?</li>
+            <li>What tensions exist between heritage bourbon practices and commercial demand?</li>
+            <li>How has the Kentucky Bourbon Trail reshaped the relationship between authenticity and tourism?</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Local Farmers & Producers</h3>
+          <ul>
+            <li>How does seed saving preserve cultural memory in Kentucky farming communities?</li>
+            <li>What happens to traditional agricultural knowledge when small farms disappear?</li>
+            <li>How do local producers maintain heirloom practices amid market pressure for uniformity?</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Chefs & Restaurant Owners</h3>
+          <ul>
+            <li>How do Kentucky chefs balance heritage recipes with modern dining expectations?</li>
+            <li>What role do restaurants play in keeping or transforming food-based traditions?</li>
+            <li>How does tourism influence which local dishes get preserved versus which get reinvented?</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Families & Community</h3>
+          <ul>
+            <li>How do family food rituals shape Kentucky regional identity across generations?</li>
+            <li>What is lost when food traditions move from kitchens to social media platforms?</li>
+            <li>How do community cookbooks and oral histories function as cultural archives?</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="quote-box">
+        <strong>Why these questions matter:</strong>
+        The site works best when each page answers a real question rather than simply listing facts. These questions turn the
+        project into an argument about labor, authenticity, and cultural memory.
+      </div>
+    </section>
+
+    <section id="multimedia">
+      <h2>Multimedia & Visual Evidence</h2>
+      <p class="lead">
+        The rubric asks for multimedia that teaches or explains something important. These visuals are placed next to key ideas so
+        they support the argument instead of acting like decoration.
+      </p>
+      <div class="media-grid">
+        <div class="card">
+          <h3>Bourbon Process Infographic</h3>
+          <figure class="media-box">
+            <img src="a_wide_infographic_poster_graphic_layout_about_bou.png" alt="Infographic explaining the bourbon making process and the culture around it" />
+          </figure>
+          <figcaption>
+            This infographic helps the distillery section by showing that bourbon is both a material process and a cultural product.
+            It makes the labor behind authenticity visible.
+          </figcaption>
+        </div>
+
+        <div class="card">
+          <h3>Stakeholder Relationship Map</h3>
+          <figure class="media-box">
+            <img src="stakeholder-map.svg" alt="Diagram mapping distilleries, farmers, restaurants, and families to Kentucky identity" />
+          </figure>
+          <figcaption>
+            This original class-made graphic shows how the four stakeholders overlap. It is useful because it makes the site’s
+            structure visible in one place.
+          </figcaption>
+        </div>
+
+        <div class="card">
+          <h3>Heritage vs. Commercialization</h3>
+          <figure class="media-box">
+            <img src="heritage-vs-commercialization.svg" alt="Graphic contrasting heritage traditions with commercialization pressures" />
+          </figure>
+          <figcaption>
+            This original graphic visualizes the project’s central tension. It gives readers a simple way to understand why the site
+            is organized around preservation and change.
+          </figcaption>
+        </div>
+      </div>
+    </section>
+
+    <section id="works-cited" class="wc">
+      <h2>Works Cited</h2>
+      <p>
+        This list combines the sources provided in the uploaded stakeholder bibliographies. It is a starting point for the final MLA
+        page and should be checked against your professor’s formatting requirements before submission.
+      </p>
+      <ul class="mla-list">
+        <li>“Featured Story: Bourbon + Tourism = Bourbonism.” <em>The Lane Report</em>, 17 Sept. 2021, www.lanereport.com/146389/2021/09/featured-story-bourbon-tourism-bourbonism/.</li>
+        <li>Brown, Cheryl, and Stacy Miller. “The Impacts of Local Markets: A Review of Research on Farmers Markets and Community Supported Agriculture (CSA).” <em>American Journal of Agricultural Economics</em>, vol. 90, no. 5, 2008, pp. 1296–1302.</li>
+        <li>Coomes, Steve. “Pairing Food With Your Bourbon Creates the Ultimate Taste Adventure.” <em>Kentucky Bourbon</em>, Kentucky Distillers’ Association, 4 Aug. 2021.</li>
+        <li>Edge, John T. “The New Southern Table.” <em>The New York Times Magazine</em>, 2018.</li>
+        <li>Kebede, Elias Gudissa, and Mehari Getaneh. “Land Dispute Settlement between Farmers and Local Administration: Expropriation, Compensation and Asymmetry of Power.” <em>African Journal on Land Policy and Geospatial Sciences</em>, vol. 8, no. 7, 2025.</li>
+        <li>Kentucky Distillers’ Association. “Impact.” <em>Kentucky Bourbon</em>, kybourbon.com/industry/impact/.</li>
+        <li>Kentucky Distillers’ Association. “Kentucky Bourbon Trail®.” <em>Kentucky Bourbon Trail</em>, kybourbontrail.com/.</li>
+        <li>“Kentucky Bourbon as an Agricultural and Economic Engine.” <em>Kentucky Food & Farm</em>, 15 June 2023.</li>
+        <li>La Trobe, Helen. “Farmers’ Markets: Consuming Local Rural Produce.” <em>International Journal of Consumer Studies</em>, vol. 25, no. 3, 2001, pp. 181–192.</li>
+        <li>Minnick, Fred. <em>Bourbon Curious: A Simple Tasting Guide for the Savvy Drinker</em>. Voyageur Press, 2019.</li>
+        <li>Monamodi, Prayer, et al. “The Impact of Innovative Irrigation System Use on Crop Yield Among Smallholder Farmers in Mbombela Local Municipality, South Africa.” <em>Agriculture</em>, vol. 15, 2025.</li>
+        <li>Pszczola, Donald E. “What Makes a Winning Ingredient?” <em>Food Technology</em>, Aug. 2012, pp. 58–65.</li>
+        <li>Risen, Clay. <em>American Whiskey, Bourbon & Rye: A Guide to the Nation’s Favorite Spirit</em>. Sterling Publishing, 2017.</li>
+        <li>Smith, Carson. “Culinary Tourism and Bourbon Culture in Kentucky.” <em>Journal of Gastronomy and Tourism</em>, vol. 4, no. 2, 2019, pp. 87–101.</li>
+        <li>Smith, Frederick H. <em>Bourbon Empire: The Past and Future of America’s Whiskey</em>. University Press of Kentucky, 2013.</li>
+        <li>Toler, Stephen, et al. “Fairness, Farmers Markets, and Local Production.” <em>American Journal of Agricultural Economics</em>, vol. 91, no. 5, 2009, pp. 1272–1278.</li>
+        <li>Verhaal, J. Cameron, and Glenn R. Carroll. “Authenticity among Distilleries: Signaling, Transparency, and Essence.” <em>Poetics</em>, vol. 95, 2022.</li>
+      </ul>
+    </section>
+
+    <section id="credits">
+      <h2>Contributor Credits</h2>
+      <div class="credits-grid">
+        <div class="card">
+          <h3>Nathanial Demichele</h3>
+          <p>Distilleries & Workers research, stakeholder writing, and bourbon-focused analysis.</p>
+        </div>
+        <div class="card">
+          <h3>Sabrina Mendez</h3>
+          <p>Local Farmers & Producers research, agricultural heritage analysis, and supporting source base.</p>
+        </div>
+        <div class="card">
+          <h3>Sophia Surmay</h3>
+          <p>Chefs & Restaurant Owners research, food and restaurant analysis, and culinary tourism source base.</p>
+        </div>
+        <div class="card">
+          <h3>Will Greiwe</h3>
+          <p>Families & Community perspective, oral history emphasis, and cultural memory framing.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Family Memory Project — Bourbon, Food & Kentucky Identity</p>
+  </footer>
+</body>
+</html>
